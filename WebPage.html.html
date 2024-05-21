@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truthshield</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f4f4f4;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .main-content {
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .main-content h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .main-content p {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .main-content button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            max-width: 200px; /* Set the maximum width */
+            margin: 20px auto 0; /* Center the button */
+            display: block;
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #f4f4f4;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+        footer nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        footer .chatbot-button {
+            position: absolute;
+            bottom: 10px;
+            right: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            background-color: #28A745;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Truthshield</h1>
+        <nav>
+            <a href="#">Premium</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Log In</a>
+            <a href="#">English</a>
+        </nav>
+    </header>
+    <div class="main-content">
+        <h2>Faux Face Finder</h2>
+        <p>An AI Designed to Detect Deepfake</p>
+        <button>Get Started</button>
+    </div>
+    <footer>
+        <nav>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Details</a>
+        </nav>
+        <button class="chatbot-button">Chatbot</button>
+    </footer>
+</body>
+</html>
